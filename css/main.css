@@ -75,9 +75,8 @@ padding-left: 20px;
 	margin-top: 225px;
 	margin-bottom: -60px;
 	color: #434343;
-	font-size: 35px;
+	font-size: 30pt;
 	font-stretch: extra-expanded;
-	/*width: 298px;*/
 	height: 200px;
 	font-family: "GothamPro-Bold";	
 	line-height:40px;
@@ -101,4 +100,85 @@ padding-left: 20px;
     padding-top: 95px;
     
 }
+.centered {
+	text-align: center;
+}
+#main h1 {
+	
+	color: #434343;
+	font-size: 28pt;
+	font-stretch: extra-expanded;
+	height: 22px;
+	font-family: "GothamPro-Bold";	
+	line-height:40px;
+}
+#main p {
+	
+	color: #ae0353;
+	font-family: "GothamPro-Bold";
+	font-weight: bold;	
+}
+#main h2 {
+	color: #333333; 
+	font-size: 15pt;
+	letter-spacing: 1px;
+	line-height:22px;
+}
+#main h3 {
+	color: #333333; 
+	font-size: 15pt;
+	font-family: "GothamPro-Bold";
+}
 
+#main img {
+	margin-left: 25px;
+	margin-top: 20px;
+}
+#main ul.point {
+    list-style-image: url(../photo/ul_point.png); /* Путь к изображению маркера */
+   }
+#main .border_bottom {
+	    border-bottom: 3px solid #f1f1f1;
+	    width: 100%;
+}
+#main .spisok {
+	padding-top: 30px;
+}
+#main .begin_reviews{
+	padding-bottom:30px;
+}
+#reviews .reviews {
+	border-top: 3px solid #f1f1f1;
+	    width: 100%;
+}
+#reviews .load {
+	border-bottom:3px solid #f1f1f1;
+	    width: 100%;
+	    padding-bottom: 40px;
+}
+#submit {
+	border-bottom:3px solid #f1f1f1;
+	    width: 100%;
+	    padding-bottom: 40px;
+}
+#submit input {
+border: 0px;
+border-bottom: 1px solid #dddddd;
+border-radius: 0;
+height: 50px;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
+#submit select {
+border-radius: 0;
+border-color: #dddddd;
+height: 50px;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
+#submit textarea {
+border-radius: 0;
+border-color: #dddddd;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
